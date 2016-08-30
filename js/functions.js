@@ -9,7 +9,7 @@ gardenCanvas.height=$("#code").height();
 garden=new Garden(gardenCtx,gardenCanvas);
 $("#content").css("width",$("#code").width());
 $("#content").css("height",$("#code").height());
-$("#content").css("margin-top",Math.max($("#content").height()/5,10));
+$("#content").css("margin-top",Math.max($("#content").height()/6,10));
 $("#content").css("margin-left",Math.max(($window.width()-$("#content").width())/2,10));
 setInterval(function(){garden.render()},Garden.options.growSpeed)});
 $(window).resize(function(){var b=$(window).width();
