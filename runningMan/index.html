@@ -2,11 +2,12 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=0;">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=0;">
 	<style>
 		body{margin:0;padding:0;}
 		.view{width: 100%;height:80%;position: relative;}
 		#coins{width:90px;height: 70px;line-height: 70px;position:absolute;left:0px;top:0;padding-left: 60px;background:url(image/coins.png) no-repeat;background-size:30px 30px;background-position:20px 20px;font-size: 34px;color: #FFF;}
+		#cas{width:100%;height:80%;}
 	</style>
 	<title>简单跑酷游戏</title>
 	<script src="easeljs-0.7.1.min.js"></script>
@@ -16,7 +17,7 @@
 </head>
 <body>
 	<div class="view">
-		<canvas id="cas" width="700" height="500">您的浏览器不支持canvas</canvas>
+		<canvas id="cas" >您的浏览器不支持canvas</canvas>
 		<div id="coins">0</div>
 	</div>
 	<div id="showFPS" style="display: none;"></div>
