@@ -1,0 +1,21 @@
+<body>
+<head>
+<script src="html2canvas.js">
+</script>
+<script src="jquery.min.js">
+</script>
+    <script>
+        function cropImage() {
+            html2canvas($("#hehe"), {
+                onrendered: function (canvas) {
+                    document.body.appendChild(canvas);
+                },
+            });
+        }
+    </script>
+</head>
+<body>
+<div  style="width:400px;height:500px;border:1px solid blue;"><textarea id="hehe" style="width:200px;height:200px;"></textarea></div>
+<input type="button" value="截图" onclick="cropImage()"/>
+</body>
+</body>
