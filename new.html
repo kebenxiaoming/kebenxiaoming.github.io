@@ -1,0 +1,85 @@
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<title>课本小明(sunny)</title>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<style type="text/css">
+		@font-face {
+			font-family: digit;
+			src: url('digital-7_mono.ttf') format("truetype");
+		}
+	</style>
+	<link href="css/default.css" type="text/css" rel="stylesheet">
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/garden.js"></script>
+    <script type="text/javascript" src="js/functions.js"></script>
+</head>
+
+<body>
+	<div id="mainDiv">
+		<div id="content">
+			<div id="code">
+				<span class="space"/><span class="comments title">// <strong>When you are old</strong></span><br />
+				<span class="title title-chinese">致橡树</span></br>
+				</br>
+				<span class="space"/><span class="string"> -- 舒婷</span><br />
+				</br>
+				<span class="space"/>
+				<span class="chinese">我如果爱你——</span></br>
+				<span class="space"/><span class="comments"></span><br />
+				<span class="chinese">绝不像攀援的凌霄花，</span></br>
+				<span class="space"/><span class="comments"></span><br />
+				<span class="chinese">借你的高枝炫耀自己：</span></br>
+				<span class="space"/><span class="comments"></span><br />
+				<span class="chinese">我如果爱你——</span></br>
+				<span class="space"/><span class="comments"></span><br />
+				<span class="chinese">绝不学痴情的鸟儿，</span></br>
+				<span class="space"/><span class="comments"></span><br />
+				<span class="chinese">为绿荫重复单调的歌曲；</span></br>
+				<span class="space"/><span class="comments"></span><br />
+				<span class="chinese">也不止像泉源，</span></br>
+				<span class="space"/><span class="comments"></span><br />
+				<span class="chinese">常年送来清凉的慰籍；</span></br>
+				<span class="space"/><span class="comments"></span><br />
+				<span class="chinese">　也不止像险峰，增加你的高度，衬托你的威仪。</span></br>
+				<span class="space"/><span class="comments"></span><br />
+				<span class="chinese">甚至日光。</span></br>
+				<span class="space"/><span class="comments"></span><br />
+				<span class="chinese">甚至春雨。</span></br>
+				<span class="space"/><span class="comments"></span><br />
+				<span class="chinese">不，这些都还不够！</span></br>
+				<span class="space"/><span class="comments"></span><br />
+				<span class="chinese">我必须是你近旁的一株木棉，</span></br>
+				<span class="space"/><span class="comments"></span><br />
+				<span class="chinese">做为树的形象和你站在一起。</span></br>
+				<span class="space"/><span class="comments"></span><br />
+				<span class="chinese">根，紧握在地下，</span></br>
+				<span class="space"/><span class="comments"></span><br />
+				<span class="chinese">叶，相触在云里。</span></br>
+				<span class="space"/><span class="comments"></span><br />
+				<span class="chinese">每一阵风过，</span></br>
+				<span class="space"/><span class="comments"></span><br />
+				<span class="chinese">我们都互相致意，</span></br>
+				<span class="space"/><span class="comments"></span><br />
+				<span class="chinese">......</span></br>
+			</div>
+		</div>
+	</div>
+	<div style="text-align:center;position:fixed;bottom:0;width:100%;display:none;"><a>test</a></div>
+	<script type="text/javascript">
+		
+		if (!document.createElement('canvas').getContext) {
+			var msg = document.createElement("div");
+			msg.id = "errorMsg";
+			msg.innerHTML = "Your browser doesn't support HTML5!<br/>Recommend use Chrome 14+/IE 9+/Firefox 7+/Safari 4+"; 
+			document.body.appendChild(msg);
+			$("#code").css("display", "none")
+			$("#copyright").css("position", "absolute");
+			$("#copyright").css("bottom", "10px");
+		    document.execCommand("stop");
+		} else {
+			$("#code").typewriter();
+		}
+	</script>
+</body>
+</html>
